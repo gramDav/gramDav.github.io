@@ -2,7 +2,7 @@
 title: "Recipe Name"
 collection: recipes
 type: "xxxxx: "
-permalink: /recipes/YYYY-MM-DD-recipe-##-Template-Title
+permalink: /recipes/YYYY-MM-DD-recipe-number-Template-Title
 venue: "Prep Time: 0h##m, Total Time: #h##m"
 date: YYYY-MM-DD
 location: "Cooking Time: #h##m"
