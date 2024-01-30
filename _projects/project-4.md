@@ -5,3 +5,13 @@ collection: projects
 ---
 
 ![Tool Chest](/images/Tool Chest_feathered_w500.jpg)
+
+![Tool Chest 2](/images/Tool Chest-2_w500.jpg)
+
+![Tool Chest 3](/images/Tool Chest-3_w500.jpg)
+
+![Tool Chest 4](/images/Tool Chest-4_w500.jpg)
+
+![Tool Chest 5](/images/Tool Chest-5_w500.jpg)
+
+![Tool Chest 6](/images/Tool Chest-6_w500.jpg)
