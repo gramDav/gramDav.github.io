@@ -19,7 +19,7 @@ This 2-axis rotary table is developed for integration into a multi-axis CNC mill
 
 This project provided many opportunities to learn more about machine design, electronics, programming, motor and gearbox sizing, servo tuning, pneumatics, fabrication and systems integration.
 
-## Design
+# Design
 
 This 2-axis tilting rotary table is designed to be compact and stiff (both moment stiffness and torsional stiffness). Primary components include:
 
@@ -50,7 +50,7 @@ Shown below are several section views showing internal components and design ele
 
 
 
-### C-Axis Pneumatic Brake
+## C-Axis Pneumatic Brake
 
 ![Two-axis rotary table brake](/images/2 Axis Trunnion Brake Explode_w600.jpg)
 
@@ -72,17 +72,31 @@ For simplicity and cost reasons I used brake pads commonly found in hydraulic mo
 
 ![Brake rotor model](/images/CNC C axis brake rotor model.jpg)
 
+### 3D Model and FEA (Simulation) Axial and Torsional Loads
+
 *3D model showing brake rotor construction*
 
-![Brake rotor axial stiffness study](/images/Brake rotor axial deflection study.jpg)
+![Brake rotor axial stiffness study](/images/Rotor-FEA-Fixtures-Loads_w600.png)
 
-*FEA result showing axial deflection with 1 N total applied force. In this case, axial stiffness is 1 N / deflection*
+*FEA fixtures and loads applied to brake rotor and flexure*
 
-![Brake rotor torsional stiffness study](/images/Brake rotor torsional deflection study.jpg)
+![Brake rotor axial stiffness study](/images/Rotor-FEA-Mesh-Plot-2_w600.png)
 
-*FEA result showing torsional deflection with 1 Nm total applied torque. In this case, torsional stiffness is 1 Nm / angular deflection*
+*FEA model mesh*
 
-### Compact C-Axis Motor and Drivetrain
+![Brake rotor axial stiffness study](/images/Rotor-FEA-Axial-Stiffness-Deformed-Plot_w600.png)
+
+![Brake rotor axial load deformed side view](/images/Rotor-FEA-Axial-Stiffness--Deformed-Side-View-Plot_w600.png)
+
+*Deformed result showing flexure bending*
+
+*FEA result showing axial deflection with 1 N total applied force. In this case, axial stiffness is 1 N / deflection. Deflection = 2.8 µm, Stiffness = 0.36 N/µm*
+
+![Brake rotor torsional stiffness study](/images/Rotor-FEA-Torsional-Stiffness-Deformed-Plot_w600.png)
+
+*FEA result showing torsional deflection with 1 Nm total applied torque. In this case, torsional stiffness is 1 Nm / angular deflection at R = 55 mm. Linear Deflection = 8.27 µm, Angular Deflection = 0.0085 **°**, Angular Stiffness = 118 Nm/**°** [6771 Nm/rad]*
+
+## Compact C-Axis Motor and Drivetrain
 
 I wanted to have the C-axis motor and drivetrain tucked inside the body of the rotary table to shield it from metal chips and coolant. The largest motor I could package in the structure was a 200W servo motor. This motor is directly coupled to a 17-80 harmonic drive, with an 80:1 reduction. The powerful motor enables rotation speeds of up to 40 RPM [240 deg/s], with a peak output torque of 220 Nm. All of the motor power, encoder, home sensor wiring and pneumatics are protected by the aluminum housing.
 
@@ -90,7 +104,7 @@ I wanted to have the C-axis motor and drivetrain tucked inside the body of the r
 
 *C-Axis motor, gearbox and belt drive*
 
-### High Torque A-Axis Servo Motor and Harmonic Drive
+## High Torque A-Axis Servo Motor and Harmonic Drive
 
 The A-axis uses a rebuilt [SHF-40-100-2UH](https://www.harmonicdrive.net/products/gear-units/hollow-shaft-gear-units/shf-2uh/shf-40-100-2uh) harmonic drive from Harmonic Drive Solutions. This gear reducer also includes a very stiff preloaded crossed roller bearing to support any radial, axial or moment loads. Harmonic drives operate with very little angular backlash (< 7 arc sec [0.002 degrees]), hysteresis and excellent positional accuracy (1 arc min [0.0166 degrees]) - making them a great option for this rotary table. They offer a large gear reduction in a very small package with great mechanical efficiency and torsional stiffness. This particular unit is 100:1, with a rated torque of 265 Nm and excellent rigidity. I was able to get this unit from a machine rebuilder on Ebay for a great price, along with a replacement crossed roller bearing from a Taiwan supplier.
 
