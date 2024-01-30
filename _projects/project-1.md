@@ -70,9 +70,9 @@ For simplicity and cost reasons I used brake pads commonly found in hydraulic mo
 
 *C-Axis belt drive, rotary table brake pads and drive pulley*
 
-![Brake rotor model](/images/CNC C axis brake rotor model.jpg)
+### 3D Model and FEA (Simulation)
 
-### 3D Model and FEA (Simulation) Axial and Torsional Loads
+![Brake rotor model](/images/CNC C axis brake rotor model.jpg)
 
 *3D model showing brake rotor construction*
 
@@ -82,13 +82,13 @@ For simplicity and cost reasons I used brake pads commonly found in hydraulic mo
 
 ![Brake rotor axial stiffness study](/images/Rotor-FEA-Mesh-Plot-2_w600.png)
 
-*FEA model mesh*
-
-![Brake rotor axial stiffness study](/images/Rotor-FEA-Axial-Stiffness-Deformed-Plot_w600.png)
+*Model mesh for FEA study*
 
 ![Brake rotor axial load deformed side view](/images/Rotor-FEA-Axial-Stiffness--Deformed-Side-View-Plot_w600.png)
 
 *Deformed result showing flexure bending*
+
+![Brake rotor axial stiffness study](/images/Rotor-FEA-Axial-Stiffness-Deformed-Plot_w600.png)
 
 *FEA result showing axial deflection with 1 N total applied force. In this case, axial stiffness is 1 N / deflection. Deflection = 2.8 µm, Stiffness = 0.36 N/µm*
 
@@ -98,7 +98,7 @@ For simplicity and cost reasons I used brake pads commonly found in hydraulic mo
 
 ## Compact C-Axis Motor and Drivetrain
 
-I wanted to have the C-axis motor and drivetrain tucked inside the body of the rotary table to shield it from metal chips and coolant. The largest motor I could package in the structure was a 200W servo motor. This motor is directly coupled to a 17-80 harmonic drive, with an 80:1 reduction. The powerful motor enables rotation speeds of up to 40 RPM [240 deg/s], with a peak output torque of 220 Nm. All of the motor power, encoder, home sensor wiring and pneumatics are protected by the aluminum housing.
+I wanted to have the C-axis motor and drivetrain tucked inside the body of the rotary table to shield it from metal chips and coolant. The largest motor I could package in the structure was a 200W servo motor. This motor is directly coupled to a 17-80 harmonic drive, with an 80:1 reduction. The powerful motor enables rotation speeds of up to 40 RPM [240 deg/s], with a peak output torque of 220 Nm. All of the motor, encoder, home sensor wiring and pneumatics are protected in the aluminum housing.
 
 ![Two-axis rotary table brake rotor](/images/2 Axis Trunnion Motor_w600.jpg)
 
