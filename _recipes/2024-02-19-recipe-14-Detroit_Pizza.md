@@ -1,3 +1,4 @@
+---
 title: "Detroit Style Pizza"
 collection: recipes
 type: " "
@@ -6,6 +7,7 @@ venue: "Prep Time: 1h00m, Total Time: 1h25m"
 date: 2024-02-19
 location: "Cooking Time: 0h25m"
 tags: 
+---
 
 Detroit style pizza crust
 
