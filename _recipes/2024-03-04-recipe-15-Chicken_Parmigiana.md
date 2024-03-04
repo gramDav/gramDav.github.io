@@ -20,21 +20,20 @@ by Chef John. Sure to impress your friends and family!
 
 #### Ingredients
 
-4 skinless, boneless chicken breast
-halves
-salt and freshly ground black pepper to taste
-2 eggs
-4 cups panko bread crumbs
-1/2 cup grated Parmesan cheese
-2 tablespoons all­purpose flour, or more if needed
+- 4 skinless, boneless chicken breast halves
+- salt and freshly ground black pepper to taste
+- 2 eggs
+- 4 cups panko bread crumbs
+- 1/2 cup grated Parmesan cheese
+- 2 tbsp all­purpose flour, or more if needed
 
-1 cup olive oil for frying
-1/2 cup prepared tomato sauce
-1/4 cup fresh mozzarella, cut into small cubes
-1/4 cup chopped fresh basil
-1/2 cup grated provolone cheese
-1/4 cup grated Parmesan cheese
-1 tablespoon olive oil
+- 1 cup olive oil for frying
+- 1/2 cup prepared tomato sauce
+- 1/4 cup fresh mozzarella, cut into small cubes
+- 1/4 cup chopped fresh basil
+- 1/2 cup grated provolone cheese
+- 1/4 cup grated Parmesan cheese
+-  1 tbsp olive oil
 
 DIRECTIONS:
 1. Preheat an oven to 450 degrees F (230 degrees C).
