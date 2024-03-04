@@ -35,7 +35,7 @@ by Chef John. Sure to impress your friends and family!
 - 1/4 cup grated Parmesan cheese
 -  1 tbsp olive oil
 
-DIRECTIONS:
+#### Instructions:
 1. Preheat an oven to 450 degrees F (230 degrees C).
 2. Place chicken breasts between two sheets of heavy plastic (resealable freezer bags
 work well) on a solid, level surface. Firmly pound chicken with the smooth side of a
@@ -56,5 +56,3 @@ and drizzle with 1 tablespoon olive oil.
 9. Bake in the preheated oven until cheese is browned and bubbly, and chicken breasts
 are no longer pink in the center, 15 to 20 minutes. An instant­read thermometer
 inserted into the center should read at least 165 degrees F (74 degrees C).
-
-#### Instructions:
