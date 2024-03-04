@@ -11,7 +11,7 @@ tags:
 
 Chicken parm for non-Italian North Americans
 
-![Poultry Parm](/images/Recipes_Detroit_Pizza.jpg)
+![Poultry Parm](/images/Recipes_Chicken-Parm.jpg)
 
 [Recipe Source](https://docs.google.com/document/d/150pesPlUpXjwzoGEW7X4BUQ1sS6HLA3xhlvFJVSC2ns/mobilebasic)
 
