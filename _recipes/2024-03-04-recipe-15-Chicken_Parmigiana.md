@@ -16,8 +16,6 @@ by Chef John. Sure to impress your friends and family!
 
 ![Poultry Parm](/images/Recipes_Chicken-Parm.jpg)
 
-[Recipe Source](https://docs.google.com/document/d/150pesPlUpXjwzoGEW7X4BUQ1sS6HLA3xhlvFJVSC2ns/mobilebasic)
-
 #### Ingredients
 
 - 4 skinless, boneless chicken breast halves
