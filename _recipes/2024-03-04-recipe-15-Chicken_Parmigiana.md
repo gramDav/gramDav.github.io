@@ -4,8 +4,8 @@ collection: recipes
 type: " "
 permalink: /recipes/2024-03-04-recipe-15-Chicken_Parmigiana
 venue: "Prep Time: 1h00m, Total Time: 1h25m"
-date: 2024-02-19
-location: "Cooking Time: 0h25m"
+date: 2024-03-04
+location: "Cooking Time: 0h55m"
 tags: 
 ---
 
